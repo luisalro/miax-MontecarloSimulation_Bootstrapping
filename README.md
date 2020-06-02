@@ -10,7 +10,7 @@ The steps will be as follows:
 
 1. Load the closing data of the Ibex with dividends that are in the file:
 
-ibex div data close.csv.
+/b ibex_div_data_close.csv.
 
 2. Calculate the logarithmic returns of the series.
 
