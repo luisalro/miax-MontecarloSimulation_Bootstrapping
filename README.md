@@ -1,4 +1,4 @@
-This exercise was created by Fernando de la Calle, Python programming professor from mIA-X master's degree at BME Institute.
+This lab was created by Fernando de la Calle, Python programming professor from mIA-X master's degree at BME Institute.
 
 ### Introduction
 
