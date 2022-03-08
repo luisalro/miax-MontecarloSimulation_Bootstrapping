@@ -7,7 +7,7 @@ Check out his LinkedIn profile.
 ### Introduction
 
 In this exercise we are going to make a series of projections of the returns, investing in IBEX for a period of 5 years. 
-The final goal is to obtain an analysis that tells the investor the average, worst and best situations that could be obtain when making the investment.  We will make these projections in four ways: Simple Monte Carlo, Simple Bootstrapping , Block Bootstrapping and Random Block Bootstrapping.
+The final goal is to obtain an analysis that tells the investor the average, worst and best situations that could be obtain when making the investment.  We will make these projections in three ways: Simple Monte Carlo, Simple Bootstrapping and Block Bootstrapping.
 
 The steps will be as follows:
 
