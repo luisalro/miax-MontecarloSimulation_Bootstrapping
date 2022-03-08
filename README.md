@@ -27,9 +27,7 @@ The steps will be as follows:
 
 ## Method III: Block Bootstrapping.
 
-6. The Block Bootstrapping method is an evolution of the previous one, where the series original is divided into contiguous blocks. Generate the dataframe with the 1000 simulations by randomly sampling the blocks. That is, we obtain the necessary returns of the blocks chosen at random with replacement to generate the simulations.
-
-The size of the blocks can be configured. In this case we will use blocks of a size of 20 days.
+6. The Block Bootstrapping method is an evolution of the previous one, where the series original is divided into contiguous blocks. Generate the dataframe with the 1000 simulations by randomly sampling the blocks. That is, we obtain the necessary returns of the blocks chosen at random with replacement to generate the simulations. The size of the blocks can be configured. In this case we will use blocks of a size of 20 days.
 
 7. For each method, using the returns of a single simulation (a single column), make a figure of the distribution of the returns (you can use the distplot function of seaborn). Compare the figure for each method. -> What conclusions can you draw?
 
