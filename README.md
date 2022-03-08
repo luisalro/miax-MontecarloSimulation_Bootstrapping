@@ -11,9 +11,7 @@ The final goal is to obtain an analysis that tells the investor the average, wor
 
 The steps will be as follows:
 
-1. Load the closing data of the Ibex with dividends that are in the file:
-
-<b> ibex_div_data_close.csv. </b>
+1. Load the closing data of the Ibex with dividends that are in the file: <b> ibex_div_data_close.csv. </b>
 
 2. Calculate the logarithmic returns of the series.
 
@@ -38,17 +36,11 @@ Generate the dataframe with the 1000 simulations by randomly sampling the blocks
 
 The size of the blocks can be configured. In this case we will use blocks of a size of 20 days.
 
-## Method IV: Random Block Bootstrapping.
+7. For each method, using the returns of a single simulation (a single column), make a figure of the distribution of the returns (you can use the distplot function of seaborn). Compare the figure for each method. -> What conclusions can you draw?
 
-7. The Random Block Bootstrapping method is an evolution of the previous one where the blocks are not contiguous, but the block start time is determined randomly.
-It generates a dataframe in the same way as the previous method, with the difference that for each simulation the blocks from which we obtain the returns will be even different.
-The size of the blocks can be confi gured. In this case we will use blocks of a size of 20 days.
+8. For each method using simulated returns, calculate the time evolution of investing a monetary unit in each of the simulations generated.
 
-8. For each method, using the returns of a single simulation (a single column), make a figure of the distribution of the returns (you can use the distplot function of seaborn). Compare the figure for each method. -> What conclusions can you draw?
-
-9. For each method using simulated returns, calculate the time evolution of investing a monetary unit in each of the simulations generated.
-
-10. For each method using the result of the previous section, obtain in a figure where you show 100 simulations.
+9. For each method using the result of the previous section, obtain in a figure where you show 100 simulations.
 
 
 
