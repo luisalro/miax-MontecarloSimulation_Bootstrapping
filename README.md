@@ -19,20 +19,15 @@ The steps will be as follows:
 
 ## Method I: Monte Carlo simulation.
 
-4.Calculate the mean and the standard deviation of the returns obtained in the section 2.
-Generate a dataframe with 1000 columns, which will be each of the simulations and where they will extend to a term of 5 years, from the last day of the
-original series.
-The data of the dataframe is generated randomly following a normal distribution with the mean and the standard deviation obtained previously.
+4. Calculate the mean and the standard deviation of the returns obtained in the section. Generate a dataframe with 1000 columns, which will be each of the simulations and where they will extend to a term of 5 years, from the last day of the original series. The data of the dataframe is generated randomly following a normal distribution with the mean and the standard deviation obtained previously.
 
 ## Method II: Simple Bootstrapping.
 
-5. In Simple Bootstrapping instead of generating the returns randomly,we performed a random sampling of the returns of the original series.
-Generate the dataframe with the 1000 simulations, randomly sampling with replacement the returns of the original series.
+5. In Simple Bootstrapping instead of generating the returns randomly,we performed a random sampling of the returns of the original series. Generate the dataframe with the 1000 simulations, randomly sampling with replacement the returns of the original series.
 
 ## Method III: Block Bootstrapping.
 
-6. The Block Bootstrapping method is an evolution of the previous one, where the series original is divided into contiguous blocks.
-Generate the dataframe with the 1000 simulations by randomly sampling the blocks. That is, we obtain the necessary returns of the blocks chosen at random with replacement to generate the simulations.
+6. The Block Bootstrapping method is an evolution of the previous one, where the series original is divided into contiguous blocks. Generate the dataframe with the 1000 simulations by randomly sampling the blocks. That is, we obtain the necessary returns of the blocks chosen at random with replacement to generate the simulations.
 
 The size of the blocks can be configured. In this case we will use blocks of a size of 20 days.
 
