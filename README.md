@@ -36,7 +36,7 @@ The steps will be as follows:
 9. For each method using the result of the previous section, obtain in a figure where you show 100 simulations.
 
 
-
+### Deliverable
 
 
 
