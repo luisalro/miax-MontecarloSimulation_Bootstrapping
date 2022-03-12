@@ -4,7 +4,7 @@ Check out his LinkedIn profile.
 
 <a href="https://www.linkedin.com/in/fernando-de-la-calle-silos/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
 
-### Introduction
+### Instructions
 
 In this exercise we are going to make a series of projections of the returns, investing in IBEX for a period of 5 years. 
 The final goal is to obtain an analysis that tells the investor the average, worst and best situations that could be obtain when making the investment.  We will make these projections in three ways: Simple Monte Carlo, Simple Bootstrapping and Block Bootstrapping.
