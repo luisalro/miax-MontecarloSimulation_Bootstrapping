@@ -1,5 +1,3 @@
-This lab was created by Fernando de la Calle, Python programming professor from mIA-X master's degree at BME Institute.
-
 ### Instructions
 
 In this exercise we are going to make a series of projections of the returns, investing in IBEX for a period of 5 years. 
