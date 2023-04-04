@@ -28,9 +28,3 @@ The steps will be as follows:
 8. For each method using simulated returns, calculate the time evolution of investing a monetary unit in each of the simulations generated.
 
 9. For each method using the result of the previous section, obtain in a figure where you show 100 simulations.
-
-
-### Deliverable
-
-
-
